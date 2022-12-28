@@ -1,7 +1,7 @@
 ---
 title: Shin Fujieda
 role: Sr. Software Development Engineer
-avatar_filename: shin.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include computer graphics and machine learning.
 interests:
   - Computer Graphics
@@ -41,11 +41,9 @@ education:
       institution: The University of Tokyo
       year: 2016
 superuser: true
-status:
-  icon: ☕️
-last_name: Wu
+last_name: Fujieda
 highlight_name: true
-first_name: Alice
+first_name: Shin
 email: ""
 ---
 Shin Fujieda is a researcher and a software development engineer of a GPU global illumination renderer called Radeon ProRender in the team of ARR (Advanced Rendering Research Group) at AMD. Before joining AMD, he was leading several projects using machine learning solutions for image processing at IBM. Previously, he received Master’s and Bachelor’s degrees in engineering both from the University of Tokyo.

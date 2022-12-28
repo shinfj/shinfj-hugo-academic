@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: ocean
+  theme_night: dark
   font: minimal
   font_size: L
 
@@ -15,11 +15,11 @@ appearance:
 
 marketing:
   seo:
-    site_type: Person
+    site_type: ''
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: ''
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -41,6 +41,8 @@ header:
 
 # Site footer
 
+# Show a copyright license from creativecommons.org in the site footer?
+# Page specific copyright licenses are also possible by adding this option to a page's front matter.
 footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
@@ -48,7 +50,7 @@ footer:
       enable: true
       allow_derivatives: false
       share_alike: true
-      allow_commercial: false
+      allow_commercial: true
 
 # Localization
 
@@ -94,9 +96,9 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: ''
+    provider: 'mapnik'
     api_key: ''
-    zoom: 15
+    zoom: 20
 
 # Extensions
 
