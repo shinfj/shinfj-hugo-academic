@@ -29,11 +29,9 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        # If you're changing the branch from main, 
-        # also change the `main` in `refs/heads/main` 
-        # below accordingly.
+        # If you're changing the branch from main, also change the `main` in `refs/heads/main` below accordingly.
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          external_repository: shinfj/shinfj.github.io  
+          external_repository: shinfj/shinfj.github.io
           publish_dir: ./public
