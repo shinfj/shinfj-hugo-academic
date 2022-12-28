@@ -30,8 +30,8 @@ social:
     icon_pack: fab
     link: https://github.com/shinfj
 organizations:
-  - name: AMD
-    url: https://www.amd.com/
+  - name: AMD, Advanced Rendering Research Group (ARR)
+    url: https://gpuopen.com/advanced-rendering-research/
 education:
   courses:
     - course: MEng in Computer Graphics
@@ -46,4 +46,6 @@ highlight_name: true
 first_name: Shin
 email: ""
 ---
-Shin Fujieda is a researcher and a software development engineer of a GPU global illumination renderer called Radeon ProRender in the team of ARR (Advanced Rendering Research Group) at AMD. Before joining AMD, he was leading several projects using machine learning solutions for image processing at IBM. Previously, he received Master’s and Bachelor’s degrees in engineering both from the University of Tokyo.
+Shin Fujieda is a researcher and a software development engineer of a GPU global illumination renderer called Radeon ProRender in the team of ARR at AMD.
+
+Before joining AMD, he was leading several projects using machine learning solutions for image processing at IBM. Previously, he received Master’s and Bachelor’s degrees in engineering both from the University of Tokyo.
