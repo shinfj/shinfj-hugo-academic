@@ -30,9 +30,9 @@ featured: false
 
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/1707.07394
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: ''
+  url: 'https://arxiv.org/abs/1707.07394'
+url_pdf: 'http://arxiv.org/pdf/1512.04133v1'
+url_code: 'https://github.com/shinfj/WaveletCNN_for_TextureClassification'
 url_dataset: ''
 url_poster: ''
 url_project: ''
