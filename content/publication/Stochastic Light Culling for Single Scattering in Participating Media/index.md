@@ -43,8 +43,6 @@ featured: false
 links:
 - name: Supplemental
   url: 'https://www.dropbox.com/s/8jdj8xzvgn16os4/supplemental.pdf?dl=0'
-- name: Publisher's official version
-  url: 'https://diglib.eg.org/handle/10.2312/egs20221023'
 url_pdf: 'https://gpuopen.com/download/publications/EG22_VolumeSlc.pdf'
 url_code: ''
 url_dataset: ''

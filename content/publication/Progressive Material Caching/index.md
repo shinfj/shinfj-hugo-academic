@@ -41,8 +41,6 @@ featured: false
 links:
 - name: Supplemental
   url: 'https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3550340.3564223&file=SA2022_ProgressiveMaterialCache_supplemental.pdf'
-- name: Publisher's official version
-  url: 'https://dl.acm.org/doi/pdf/10.1145/3550340.3564223'
 url_pdf: 'https://gpuopen.com/download/publications/SA2022_ProgressiveMaterialCache.pdf'
 url_code: ''
 url_dataset: ''

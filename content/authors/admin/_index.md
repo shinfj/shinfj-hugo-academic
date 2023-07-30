@@ -46,6 +46,6 @@ highlight_name: true
 first_name: Shin
 email: ""
 ---
-Shin Fujieda is a researcher and a software development engineer of a GPU global illumination renderer called Radeon ProRender in the team of ARR at AMD.
+Shin Fujieda is a researcher mainly for ray tracing and machin learning, and a software development engineer of a GPU global illumination renderer called Radeon ProRender, in the team of ARR at AMD.
 
 Before joining AMD, he was leading several projects using machine learning solutions for image processing at IBM. Previously, he received Master’s and Bachelor’s degrees in engineering both from the University of Tokyo.

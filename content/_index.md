@@ -30,7 +30,7 @@ sections:
           location: Tokyo, Japan
           date_start: '2019-08-01'
           date_end: ''
-          description: Develop a GPU global illumination renderer called Radeon ProRender.
+          description: Reaseach for Ray Tracing & Machine Learning. <br> Develop a GPU global illumination renderer called Radeon ProRender.
         - title: Data Scientist
           company: IBM
           company_url: ''
