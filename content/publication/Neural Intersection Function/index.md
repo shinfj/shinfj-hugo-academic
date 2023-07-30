@@ -1,18 +1,19 @@
 ---
-title: 'Progressive Material Caching'
+title: 'Neural Intersection Function'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
+  - Chih-Chen Kao
   - Takahiro Harada
 
 # Author notes (optional)
 author_notes:
 
-date: '2022-12-01T00:00:00Z'
-doi: '10.1145/3550340.3564223'
+date: '2023-07-01T00:00:00Z'
+doi: '10.2312/hpg.20231135'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
@@ -24,10 +25,10 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: "In *SIGGRAPH Asia 2022 Technical Communications*"
-publication_short: "In *SA '22*"
+publication: "In *High-Performance Graphics 2023*"
+publication_short: "In *HPG '23*"
 
-abstract: The evaluation of material networks is a relatively resource-intensive process in the rendering pipeline. Modern production scenes can contain hundreds or thousands of complex materials with massive networks, so there is a great demand for an efficient way of handling material networks. In this paper, we introduce an efficient method for progressively caching the material nodes without an overhead on the rendering performance. We evaluate the material networks as usual in the rendering process. Then, the output value of part of the network is stored in a cache and can be used in the evaluation of the next materials. Using our method, we can render the scene with performance equal to or better than that of the method without caching, with a slight difference in the images rendered with caching and without it.
+abstract: The ray casting operation in the Monte Carlo ray tracing algorithm usually adopts a bounding volume hierarchy (BVH) to accelerate the process of finding intersections to evaluate visibility. However, its characteristics are irregular, with divergence in memory access and branch execution, so it cannot achieve maximum efficiency on GPUs. This paper proposes a novel Neural Intersection Function based on a multilayer perceptron whose core operation contains only dense matrix multiplication with predictable memory access. Our method is the first solution integrating the neural network-based approach and BVH-based ray tracing pipeline into one unified rendering framework. We can evaluate the visibility and occlusion of secondary rays without traversing the most irregular and time-consuming part of the BVH and thus accelerate ray casting. The experiments show the proposed method can reduce the secondary ray casting time for direct illumination by up to 35% compared to a BVH-based implementation and still preserve the image quality.
 
 # Summary. An optional shortened abstract.
 summary:
@@ -35,22 +36,20 @@ summary:
 tags: []
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 links:
 - name: Supplemental
-  url: 'https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3550340.3564223&file=SA2022_ProgressiveMaterialCache_supplemental.pdf'
-- name: Publisher's official version
-  url: 'https://dl.acm.org/doi/pdf/10.1145/3550340.3564223'
-url_pdf: 'https://gpuopen.com/download/publications/SA2022_ProgressiveMaterialCache.pdf'
+  url: 'https://diglib.eg.org/bitstream/handle/10.2312/hpg20231135/mm1010.pdf?sequence=2&isAllowed=y'
+url_pdf: 'https://arxiv.org/abs/2306.07191'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://youtu.be/A-Lt2-14elI'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
